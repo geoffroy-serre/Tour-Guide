@@ -27,8 +27,8 @@ public class TourGuideService {
 
   WebClient webClientGps;
   WebClient webClientTripPricer;
-
   private List<Attraction> attractions;
+
 
   private Logger logger = LoggerFactory.getLogger(TourGuideService.class);
   private final RewardsService rewardsService;
@@ -56,6 +56,7 @@ public class TourGuideService {
     addShutDownHook();
   }
 
+
   public AttractionsSuggestion getAttractionsSuggestion(final User user) {
 
     AttractionsSuggestion suggestion = new AttractionsSuggestion();
@@ -63,27 +64,20 @@ public class TourGuideService {
             user.getLastVisitedLocation().getLocation().getLatitude(),
             user.getLastVisitedLocation().getLocation().getLongitude()));
 
-    TreeMap<String, NearbyAttraction> suggestedAttractions =
-            new TreeMap<>();
+    TreeMap<String, NearbyAttraction> suggestedAttractions = new TreeMap<>();
     List<Attraction> attractionsList = getNearByAttractions(
             user.getLastVisitedLocation());
     final AtomicInteger indexHolder = new AtomicInteger(1);
     attractionsList.stream()
-            .sorted(Comparator.comparingDouble(a -> rewardsService
-                    .getDistance(a,
-                            user.getLastVisitedLocation().getLocation())))
+            .sorted(Comparator.comparingDouble(a -> rewardsService.getDistance(a,
+                    user.getLastVisitedLocation().getLocation())))
             .forEach(a -> {
               final int index = indexHolder.getAndIncrement();
-              suggestedAttractions.put(
-                      index + ". " + a.attractionName,
-                      new NearbyAttraction(
-                              new Location(a.getLatitude(),
-                                      a.getLongitude()),
+              suggestedAttractions.put(index + ". " + a.attractionName,
+                      new NearbyAttraction(new Location(a.getLatitude(), a.getLongitude()),
                               rewardsService.getDistance(a,
-                                      user.getLastVisitedLocation()
-                                              .getLocation()),
-                              rewardsService.getRewardPoints(
-                                      user.getLastVisitedLocation(), a,
+                                      user.getLastVisitedLocation().getLocation()),
+                              rewardsService.getRewardPoints(user.getLastVisitedLocation(), a,
                                       user).block()));
             });
 
@@ -141,14 +135,12 @@ public class TourGuideService {
   }
 
   private Retry retry() {
-    return Retry
-            .backoff(100,
-                    Duration.ofSeconds(10));
+    return Retry.backoff(60, Duration.ofSeconds(5));
   }
 
   /**
    * @param user User
-   * @return CompletableFuture<VisitedLocation>
+   * @return Mono<VisitedLocation>
    */
   public Mono<VisitedLocation> trackUserLocation(User user) {
 
@@ -164,14 +156,28 @@ public class TourGuideService {
             .retryWhen(retry());
   }
 
-  private void saveNewVisitedLocation(final User user,
-                                      final VisitedLocation visitedLocationDTO) {
+  private void saveNewVisitedLocation(User user,
+                                      VisitedLocation visitedLocation) {
     user.addToVisitedLocations(new VisitedLocation(user.getUserId(),
-            new Location(visitedLocationDTO.getLocation().getLatitude(),
-                    visitedLocationDTO.getLocation().getLongitude()),
-            visitedLocationDTO.getTimeVisited()));
+            new Location(visitedLocation.getLocation().getLatitude(),
+                    visitedLocation.getLocation().getLongitude()),
+            visitedLocation.getTimeVisited()));
     rewardsService.calculateRewards(user, getAttractions());
 
+  }
+
+  public List<Attraction> getAllAttractionsFromGpsMicroService() {
+    final String attractionUri = "/getAttractions";
+
+    Flux<Attraction> attractionsFlux = webClientGps.get()
+            .uri(attractionUri)
+            .retrieve()
+            .bodyToFlux(Attraction.class);
+
+    List<Attraction> listOfAttraction = attractionsFlux.collectList()
+            .block();
+    setAttractions(listOfAttraction);
+    return listOfAttraction;
   }
 
   public List<Attraction> getAttractions() {
@@ -245,6 +251,7 @@ public class TourGuideService {
   private final Map<String, User> internalUserMap = new HashMap<>();
 
   private void initializeInternalUsers() {
+    getAllAttractionsFromGpsMicroService();
     IntStream.range(0, InternalTestHelper.getInternalUserNumber()).forEach(i -> {
       String userName = "internalUser" + i;
       String phone = "000";
@@ -279,6 +286,10 @@ public class TourGuideService {
   private Date getRandomTime() {
     LocalDateTime localDateTime = LocalDateTime.now().minusDays(new Random().nextInt(30));
     return Date.from(localDateTime.toInstant(ZoneOffset.UTC));
+  }
+
+  public void setAttractions(final List<Attraction> pAttractions) {
+    attractions = pAttractions;
   }
 
 }

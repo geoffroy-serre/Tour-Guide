@@ -1,5 +1,8 @@
 buildscript {
     repositories {
+        //maven { url 'https://repo.spring.io/release' }
+        maven { url 'https://repo.spring.io/milestone' }
+        //maven { url 'https://repo.spring.io/snapshot' }
         mavenCentral()
     }
     dependencies {
@@ -34,6 +37,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-actuator")
     compile("org.springframework.boot:spring-boot-starter-webflux")
+
+
 
 
     compile group: 'org.javamoney', name: 'moneta', version: '1.3'

@@ -3,11 +3,9 @@ package com.tourGuide;
 import com.tourGuide.helper.InternalTestHelper;
 import com.tourGuide.model.*;
 import com.tourGuide.service.RewardsService;
+import com.tourGuide.service.RewardsServiceImpl;
 import com.tourGuide.service.TourGuideService;
-import com.tourGuide.webClient.*;
 import java.util.*;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -17,6 +15,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.reactive.function.client.WebClient;
 
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -26,7 +25,6 @@ import static org.junit.Assert.assertTrue;
 public class TestTourGuideService {
 
   WebClient webClientGps = WebClient.create("http://localhost:8081");
-  WebClient webClientRewardCenter = WebClient.create("http://localhost:8082");
   WebClient webClientTripPricer= WebClient.create("http://localhost:8083");
 
   @Autowired
@@ -44,7 +42,8 @@ public class TestTourGuideService {
     tourGuideService.tracker.stopTracking();
 
     User user = tourGuideService.getAllUsers().get(0);
-    VisitedLocation visitedLocation = tourGuideService.trackUserLocation(user).block();
+    VisitedLocation visitedLocation =
+            tourGuideService.trackUserLocation(user).single().block();
 
     Assertions.assertEquals(user.getUserId(), visitedLocation.getUserId());
   }
@@ -91,7 +90,6 @@ public class TestTourGuideService {
     assertEquals(user.getUserId(), visitedLocation.getUserId());
   }
 
-
   @Test
   public void getNearbyAttractions()  {
     InternalTestHelper.setInternalUserNumber(1);
@@ -132,7 +130,27 @@ public class TestTourGuideService {
     TourGuideService tourGuideService = new TourGuideService(webClientGps,webClientTripPricer,
             rewardsService);
     tourGuideService.tracker.stopTracking();
-    assertEquals(10, tourGuideService.getAllCurrentLocation().size());
+    Assertions.assertEquals(10, tourGuideService.getAllCurrentLocation().size());
+  }
+
+  @Test
+  public void getAttractionsSuggestion(){
+    InternalTestHelper.setInternalUserNumber(1);
+    TourGuideService tourGuideService = new TourGuideService(webClientGps,webClientTripPricer,
+            rewardsService);
+    tourGuideService.tracker.stopTracking();
+    User user =tourGuideService.getAllUsers().get(0);
+    AttractionsSuggestion suggestion = tourGuideService
+            .getAttractionsSuggestion(user);
+
+    // THEN
+    assertThat(suggestion.getUserLocation().getLatitude())
+            .isEqualTo(user.getLastVisitedLocation().getLocation()
+                    .getLatitude());
+    assertThat(suggestion.getUserLocation().getLongitude())
+            .isEqualTo(user.getLastVisitedLocation().getLocation()
+                    .getLongitude());
+
   }
 
 

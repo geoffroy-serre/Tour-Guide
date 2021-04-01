@@ -4,7 +4,7 @@ import com.tourGuide.helper.InternalTestHelper;
 import com.tourGuide.model.Attraction;
 import com.tourGuide.model.User;
 import com.tourGuide.model.VisitedLocation;
-import com.tourGuide.service.RewardsService;
+import com.tourGuide.service.RewardsServiceImpl;
 import com.tourGuide.service.TourGuideService;
 import java.util.ArrayList;
 import java.util.Date;
@@ -13,7 +13,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.lang3.time.StopWatch;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
@@ -48,18 +47,19 @@ public class TestPerformance {
    * (stopWatch.getTime()));
    */
 
-  RewardsService rewardsService = new RewardsService(
+  RewardsServiceImpl rewardsService = new RewardsServiceImpl(
           WebClient.create("http://localhost:8082"));
 
   WebClient webClientTripDeals = WebClient.create("http://localhost:8083");
 
   WebClient webClientGps = WebClient.create("http://localhost:8081");;
-  int testUsersCount = 1000;
+  int testUsersCount = 1;
   int vln = 0;
 
   @Test
   public void highVolumeTrackLocation() throws ExecutionException, InterruptedException {
 // Users should be incremented up to 100,000, and test finishes within 15 minutes
+    InternalTestHelper.setInternalUserNumber(testUsersCount);
     TourGuideService tourGuideService = new TourGuideService(webClientGps,webClientTripDeals,
             rewardsService);
     tourGuideService.tracker.stopTracking();
@@ -71,22 +71,35 @@ public class TestPerformance {
     for (User user : allUsers) {
       tourGuideService.trackUserLocation(user).subscribe();
     }
+
+
+    while (vln < allUsers.size()) {
+      try {
+        TimeUnit.SECONDS.sleep(1);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
+      vln = 0;
+      allUsers.forEach(u -> {
+        if (u.getVisitedLocations().size() > 0) {
+          vln++;
+        };
+      });
+    }
     stopWatch.stop();
 
-    allUsers.forEach(user -> vln += user.getVisitedLocations().size());
-    System.out.println(vln);
-
     System.out.println("highVolumeTrackLocation: Time Elapsed: " + TimeUnit.MILLISECONDS.toSeconds(stopWatch.getTime()) + " seconds.");
+    Assertions.assertEquals( vln, testUsersCount);
     Assertions.assertTrue(TimeUnit.MINUTES.toSeconds(15) >= TimeUnit.MILLISECONDS.toSeconds(stopWatch.getTime()));
   }
 
   @Test
   public void highVolumeGetRewards() throws ExecutionException, InterruptedException {
-
+    InternalTestHelper.setInternalUserNumber(testUsersCount);
     TourGuideService tourGuideService = new TourGuideService(webClientGps,webClientTripDeals,
             rewardsService);
     tourGuideService.tracker.stopTracking();
-    InternalTestHelper.setInternalUserNumber(testUsersCount);
+
     // Users should be incremented up to 100,000, and test finishes within 20 minutes
     StopWatch stopWatch = new StopWatch();
     stopWatch.start();
