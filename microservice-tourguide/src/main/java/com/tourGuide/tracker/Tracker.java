@@ -1,6 +1,6 @@
 package com.tourGuide.tracker;
 
-import com.tourGuide.service.TourGuideService;
+import com.tourGuide.service.TourGuideServiceImpl;
 import com.tourGuide.model.User;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -15,10 +15,10 @@ public class Tracker extends Thread {
 	private Logger logger = LoggerFactory.getLogger(Tracker.class);
 	private static final long trackingPollingInterval = TimeUnit.MINUTES.toSeconds(5);
 	private final ExecutorService executorService = Executors.newSingleThreadExecutor();
-	private final TourGuideService tourGuideService;
+	private final TourGuideServiceImpl tourGuideService;
 	private boolean stop = false;
 
-	public Tracker(TourGuideService tourGuideService) {
+	public Tracker(TourGuideServiceImpl tourGuideService) {
 		this.tourGuideService = tourGuideService;
 		
 		executorService.submit(this);

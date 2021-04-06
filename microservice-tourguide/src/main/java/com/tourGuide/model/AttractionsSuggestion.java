@@ -35,7 +35,7 @@ public class AttractionsSuggestion {
 
     @Override
     public String toString() {
-        return "AttractionsSuggestionDTO [userLocation=" + userLocation
+        return "AttractionsSuggestion[userLocation=" + userLocation
                 + ", suggestedAttractions=" + suggestedAttractions + "]";
     }
 

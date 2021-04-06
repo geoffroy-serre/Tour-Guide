@@ -16,9 +16,9 @@ public class RewardsServiceImpl implements RewardsService {
   private static final double STATUTE_MILES_PER_NAUTICAL_MILE = 1.15077945;
 
   // proximity in miles
-  private final int defaultProximityBuffer = 10;
+  private static final int defaultProximityBuffer = 10;
   private int proximityBuffer = defaultProximityBuffer;
-  private final int attractionProximityRange = 200;
+  private static final int attractionProximityRange = 200;
 
   WebClient webClientRewardCenter;
 
@@ -74,7 +74,7 @@ public class RewardsServiceImpl implements RewardsService {
   @Override
   public Mono<Integer> getRewardPoints(VisitedLocation visitedLocation, Attraction attraction,
                                        User user) {
-    return webClientRewardCenter.get().uri("/getAttractionRewardsPoints&attractionId=" + attraction.attractionId + "&userId=" + user.getUserId())
+    return webClientRewardCenter.get().uri("/getAttractionRewardsPoints?attractionId=" + attraction.attractionId + "&userId=" + user.getUserId())
             .retrieve()
             .bodyToMono(Integer.class)
             .map(reward -> {
@@ -99,8 +99,8 @@ public class RewardsServiceImpl implements RewardsService {
   @Override
   public Retry retry() {
     return Retry
-            .backoff(100,
-                    Duration.ofSeconds(10));
+            .backoff(60,
+                    Duration.ofSeconds(5));
   }
 
 }

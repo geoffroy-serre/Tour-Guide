@@ -5,7 +5,7 @@ import com.tourGuide.model.Attraction;
 import com.tourGuide.model.User;
 import com.tourGuide.model.VisitedLocation;
 import com.tourGuide.service.RewardsServiceImpl;
-import com.tourGuide.service.TourGuideService;
+import com.tourGuide.service.TourGuideServiceImpl;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -18,6 +18,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.web.reactive.function.client.WebClient;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 @ExtendWith(SpringExtension.class)
 @WebAppConfiguration
@@ -52,15 +54,17 @@ public class TestPerformance {
 
   WebClient webClientTripDeals = WebClient.create("http://localhost:8083");
 
-  WebClient webClientGps = WebClient.create("http://localhost:8081");;
-  int testUsersCount = 1;
+  WebClient webClientGps = WebClient.create("http://localhost:8081");
+  ;
+  int testUsersCount = 100;
   int vln = 0;
+  int rewards = 0;
 
   @Test
   public void highVolumeTrackLocation() throws ExecutionException, InterruptedException {
 // Users should be incremented up to 100,000, and test finishes within 15 minutes
     InternalTestHelper.setInternalUserNumber(testUsersCount);
-    TourGuideService tourGuideService = new TourGuideService(webClientGps,webClientTripDeals,
+    TourGuideServiceImpl tourGuideService = new TourGuideServiceImpl(webClientGps, webClientTripDeals,
             rewardsService);
     tourGuideService.tracker.stopTracking();
 
@@ -71,8 +75,6 @@ public class TestPerformance {
     for (User user : allUsers) {
       tourGuideService.trackUserLocation(user).subscribe();
     }
-
-
     while (vln < allUsers.size()) {
       try {
         TimeUnit.SECONDS.sleep(1);
@@ -83,38 +85,55 @@ public class TestPerformance {
       allUsers.forEach(u -> {
         if (u.getVisitedLocations().size() > 0) {
           vln++;
-        };
+        }
+        ;
       });
     }
     stopWatch.stop();
 
     System.out.println("highVolumeTrackLocation: Time Elapsed: " + TimeUnit.MILLISECONDS.toSeconds(stopWatch.getTime()) + " seconds.");
-    Assertions.assertEquals( vln, testUsersCount);
+    Assertions.assertEquals(vln, testUsersCount);
     Assertions.assertTrue(TimeUnit.MINUTES.toSeconds(15) >= TimeUnit.MILLISECONDS.toSeconds(stopWatch.getTime()));
   }
 
+  // Users should be incremented up to 100,000, and test finishes within 20 minutes
   @Test
   public void highVolumeGetRewards() throws ExecutionException, InterruptedException {
     InternalTestHelper.setInternalUserNumber(testUsersCount);
-    TourGuideService tourGuideService = new TourGuideService(webClientGps,webClientTripDeals,
+    TourGuideServiceImpl tourGuideService = new TourGuideServiceImpl(webClientGps, webClientTripDeals,
             rewardsService);
     tourGuideService.tracker.stopTracking();
-
-    // Users should be incremented up to 100,000, and test finishes within 20 minutes
+    List<User> allUsers = tourGuideService.getAllUsers();
+    allUsers.forEach(u -> {
+      u.setVisitedLocations(new ArrayList<>());
+      u.setUserRewards(new ArrayList<>());
+    });
     StopWatch stopWatch = new StopWatch();
     stopWatch.start();
-    System.out.println("Start StopWatch");
-    Attraction attractionTourGuide =
-            webClientGps.get().uri("/getAttractions").retrieve().bodyToFlux(Attraction.class).collectList().block().get(0);
-    List<Attraction> attractions =
-            webClientGps.get().uri("/getAttractions").retrieve().bodyToFlux(Attraction.class).collectList().block();
-    List<User> allUsers = tourGuideService.getAllUsers();
-
+    List<Attraction> attractions = tourGuideService.getAllAttractionsFromGpsMicroService();
+    Attraction attractionTourGuide = attractions.get(0);
     allUsers.forEach(u -> u.addToVisitedLocations(new VisitedLocation(u.getUserId(),
             attractionTourGuide, new Date())));
-
     allUsers.forEach(user -> rewardsService.calculateRewards(user, attractions));
+    while (rewards < allUsers.size()) {
+      try {
+        TimeUnit.SECONDS.sleep(1);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
+      rewards = 0;
+      allUsers.forEach(u -> {
+        if (u.getUserRewards().size() > 0) {
+          rewards++;
+        }
+      });
+    }
     stopWatch.stop();
+
+    for (User user : allUsers) {
+      assertThat(user.getUserRewards().size() > 0).isTrue();
+    }
+
 
     System.out.println("highVolumeGetRewards: Time Elapsed: " + TimeUnit.MILLISECONDS.toSeconds(stopWatch.getTime()) + " seconds for " + allUsers.size() + " users.");
     Assertions.assertTrue(TimeUnit.MINUTES.toSeconds(20) >= TimeUnit.MILLISECONDS.toSeconds(stopWatch.getTime()));
