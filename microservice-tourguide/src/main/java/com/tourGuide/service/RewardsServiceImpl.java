@@ -1,14 +1,8 @@
 package com.tourGuide.service;
 
-
-
-
-
 import com.tourGuide.model.*;
 import java.time.Duration;
 import java.util.List;
-
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -20,9 +14,9 @@ import reactor.util.retry.Retry;
 @Service
 public class RewardsServiceImpl implements RewardsService {
   private static final double STATUTE_MILES_PER_NAUTICAL_MILE = 1.15077945;
-  private static final int defaultProximityBuffer = 10; // in Miles.
-  private int proximityBuffer = defaultProximityBuffer;
-  private static final int attractionProximityRange = 200;
+  private static final int DEFAULT_PROXIMITY_BUFFER = 10; // in Miles.
+  private int proximityBuffer = DEFAULT_PROXIMITY_BUFFER;
+  private static final int ATTRACTION_PROXIMITY_RANGE = 200;
   WebClient webClientRewardCenter;
   Logger logger = LoggerFactory.getLogger(RewardsServiceImpl.class);
 
@@ -45,7 +39,7 @@ public class RewardsServiceImpl implements RewardsService {
    */
   @Override
   public void setDefaultProximityBuffer() {
-    proximityBuffer = defaultProximityBuffer;
+    proximityBuffer = DEFAULT_PROXIMITY_BUFFER;
     logger.debug("RewardsServiceImpl default proximity buffer setted");
   }
 
@@ -76,7 +70,7 @@ public class RewardsServiceImpl implements RewardsService {
   @Override
   public boolean isWithinAttractionProximity(Attraction attraction, Location location) {
     logger.debug("isWithinAttractionProximity launched");
-    return !(getDistance(attraction, location) > attractionProximityRange);
+    return !(getDistance(attraction, location) > ATTRACTION_PROXIMITY_RANGE);
   }
 
   /**

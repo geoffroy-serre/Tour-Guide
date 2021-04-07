@@ -20,10 +20,8 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.util.retry.Retry;
 
-
 @Service
 public class TourGuideServiceImpl implements TourGuideService {
-
 
   WebClient webClientGps;
   WebClient webClientTripPricer;
@@ -33,7 +31,6 @@ public class TourGuideServiceImpl implements TourGuideService {
   public final Tracker tracker;
   boolean testMode = true;
   int SIZE_OF_NEARBY_ATTRACTIONS_LIST = 5;
-
 
   public TourGuideServiceImpl(@Qualifier("getWebClientGps") final WebClient pWebClientGps,
                               @Qualifier("getWebClientTripPricer") final WebClient pWebClientTripPricer,
