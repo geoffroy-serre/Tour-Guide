@@ -85,7 +85,7 @@ public class TestRewardsService {
             new Date()));
     rewardsService.calculateRewards(user, attractionList);
     List<UserReward> userRewards = user.getUserRewards();
-    while (countCheck < 1) {
+    while (countCheck == 0) {
       try {
         TimeUnit.SECONDS.sleep(1);
       } catch (InterruptedException e) {
@@ -98,5 +98,12 @@ public class TestRewardsService {
     }
 
     Assertions.assertEquals(attractionList.size(), userRewards.size());
+  }
+
+  @Test
+  public void setDefaultProximityBuffer(){
+    int defaultProximityBuffer = rewardsService.getDefaultProximityBuffer();
+    rewardsService.setDefaultProximityBuffer();
+    Assertions.assertEquals(defaultProximityBuffer,rewardsService.getDefaultProximityBuffer());
   }
 }

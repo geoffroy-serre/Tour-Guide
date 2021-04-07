@@ -5,7 +5,7 @@ public class InternalTestHelper {
 	/**
 	 * Number of user use for testing purposes.
 	 */
-	private  static int internalUserNumber = 10000;
+	private  static int internalUserNumber = 1;
 
 	/**
 	 * Set the number of user used for testing purposes.

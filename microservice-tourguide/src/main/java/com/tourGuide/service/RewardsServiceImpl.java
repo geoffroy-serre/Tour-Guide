@@ -38,6 +38,14 @@ public class RewardsServiceImpl implements RewardsService {
    * @inheritDoc
    */
   @Override
+  public int getDefaultProximityBuffer(){
+    return DEFAULT_PROXIMITY_BUFFER;
+  }
+
+  /**
+   * @inheritDoc
+   */
+  @Override
   public void setDefaultProximityBuffer() {
     proximityBuffer = DEFAULT_PROXIMITY_BUFFER;
     logger.debug("RewardsServiceImpl default proximity buffer setted");

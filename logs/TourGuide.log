@@ -1,0 +1,6 @@
+2021-04-08 01:31:56,157 DEBUG c.t.c.TourGuideController [http-nio-8080-exec-2] getTripDeals for user: internalUser0
+2021-04-08 01:31:56,159 DEBUG c.t.c.TourGuideController [http-nio-8080-exec-2] getUser for user: internalUser0
+2021-04-08 01:31:56,159 DEBUG c.t.s.TourGuideServiceImpl [http-nio-8080-exec-2] getUser launched for user: internalUser0
+2021-04-08 01:31:56,159 DEBUG c.t.c.TourGuideController [http-nio-8080-exec-2] getUser for user: internalUser0
+2021-04-08 01:31:56,159 DEBUG c.t.s.TourGuideServiceImpl [http-nio-8080-exec-2] getUser launched for user: internalUser0
+2021-04-08 01:31:56,159 DEBUG c.t.s.TourGuideServiceImpl [http-nio-8080-exec-2] getTripDeaks launched for user id: 5e46fb0d-c78d-4343-af13-c65493092ac5

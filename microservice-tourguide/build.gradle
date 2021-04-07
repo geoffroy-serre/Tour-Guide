@@ -51,6 +51,8 @@ dependencies {
     compile group: 'com.jsoniter', name: 'jsoniter', version: '0.9.23'
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.18'
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+    implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
+
     testCompile("junit:junit")
     testCompile (group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.4.4'){
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'

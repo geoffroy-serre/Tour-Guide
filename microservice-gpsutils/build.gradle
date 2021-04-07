@@ -26,6 +26,8 @@ dependencies {
                 exclude module: 'spring-boot-starter-logging'
             }
     compile(name: 'gpsUtil', ext: 'jar')
+    implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
+
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
         exclude module: 'spring-boot-starter-logging'

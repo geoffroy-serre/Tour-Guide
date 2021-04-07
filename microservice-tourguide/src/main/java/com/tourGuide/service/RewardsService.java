@@ -77,6 +77,12 @@ public interface RewardsService {
   double getDistance(Location loc1, Location loc2);
 
   /**
+   * Method used to test that proximity buffer cant be set.
+   * @return int DEFAULT_PROXIMITY_BUFFER
+   */
+  public int getDefaultProximityBuffer();
+
+  /**
    * use to define the Retry condition of the web client in case of exception.
    * default is 60 attempts max and 5 seconds pause between retry.
    * Retry time is exponential.

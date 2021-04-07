@@ -21,7 +21,7 @@ public class AttractionsSuggestionTest {
     HashMap<String, NearbyAttraction> pSuggestedAttractions = new HashMap<String,
             NearbyAttraction>(1);
     attractionsSuggestion.setSuggestedAttractions(pSuggestedAttractions);
-    assertEquals("AttractionsSuggestionDTO [userLocation=null, suggestedAttractions={}]",
+    assertEquals("AttractionsSuggestion[userLocation=null, suggestedAttractions={}]",
             attractionsSuggestion.toString());
   }
 
@@ -29,7 +29,7 @@ public class AttractionsSuggestionTest {
   public void testToString() {
     AttractionsSuggestion attractionsSuggestion = new AttractionsSuggestion();
     String actualToStringResult = attractionsSuggestion.toString();
-    assertEquals("AttractionsSuggestionDTO [userLocation=null, suggestedAttractions=null]",
+    assertEquals("AttractionsSuggestion[userLocation=null, suggestedAttractions=null]",
             actualToStringResult);
   }
 }

@@ -44,8 +44,23 @@ public class TestTourGuideServiceImpl {
     User user = tourGuideService.getAllUsers().get(0);
     VisitedLocation visitedLocation =
             tourGuideService.trackUserLocation(user).single().block();
-
+  VisitedLocation lastuser = user.getLastVisitedLocation();
+    VisitedLocation lastvisited = tourGuideService.getUserLocation(user).block();
+    Assertions.assertEquals(lastuser.toString(), lastvisited.toString());
     Assertions.assertEquals(user.getUserId(), visitedLocation.getUserId());
+  }
+  @Test
+  public void getUserRewards() {
+    InternalTestHelper.setInternalUserNumber(1);
+    TourGuideServiceImpl tourGuideService = new TourGuideServiceImpl(webClientGps, webClientTripPricer,
+            rewardsService);
+    tourGuideService.tracker.stopTracking();
+
+    User user = tourGuideService.getAllUsers().get(0);
+    VisitedLocation visitedLocation =
+            tourGuideService.trackUserLocation(user).single().block();
+
+    Assertions.assertNotNull(tourGuideService.getUserRewards(user));
   }
 
   @Test
@@ -110,6 +125,7 @@ public class TestTourGuideServiceImpl {
     User user = new User(UUID.randomUUID(), "jon", "000", "jon@tourGuide.com");
     List<Provider> providers = tourGuideService.getTripDeals(user);
     tourGuideService.tracker.stopTracking();
+
     assertEquals(5, providers.size());
   }
 
