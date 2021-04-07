@@ -56,7 +56,7 @@ public class TestPerformance {
 
   WebClient webClientGps = WebClient.create("http://localhost:8081");
   ;
-  int testUsersCount = 100;
+  int testUsersCount = 1;
   int vln = 0;
   int rewards = 0;
 

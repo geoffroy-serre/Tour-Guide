@@ -69,7 +69,6 @@ public interface TourGuideService {
    */
   List<Provider> getTripDeals(User user);
 
-
   /**
    * Update the given user's location by calling microService GpsUtil.
    *

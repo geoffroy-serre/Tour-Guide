@@ -22,7 +22,7 @@ import reactor.util.retry.Retry;
 
 
 @Service
-public class TourGuideServiceImpl implements TourGuideService{
+public class TourGuideServiceImpl implements TourGuideService {
 
 
   WebClient webClientGps;
@@ -55,17 +55,18 @@ public class TourGuideServiceImpl implements TourGuideService{
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   private Retry retry() {
     return Retry.backoff(60, Duration.ofSeconds(5));
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public AttractionsSuggestion getAttractionsSuggestion(final User user) {
+    logger.debug("getAttractionsSuggestion launched");
     AttractionsSuggestion suggestion = new AttractionsSuggestion();
     suggestion.setUserLocation(new Location(
             user.getLastVisitedLocation().getLocation().getLatitude(),
@@ -88,60 +89,67 @@ public class TourGuideServiceImpl implements TourGuideService{
                                       user).block()));
             });
     suggestion.setSuggestedAttractions(suggestedAttractions);
-
+    logger.debug("getAttractionsSuggestion returned suggestion: "+suggestion);
     return suggestion;
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public List<UserReward> getUserRewards(User user) {
+    logger.debug("getUserRewards launched for user id: "+user.getUserId());
     return user.getUserRewards();
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public Mono<VisitedLocation> getUserLocation(User user) {
+    logger.debug("getUserLocation launched for user id: "+user.getUserId());
     Mono<VisitedLocation> visitedLocation = (user.getVisitedLocations().size() > 0) ?
             Mono.just(user.getLastVisitedLocation()) :
             trackUserLocation(user);
+    logger.debug("getUserLocation finished for user id: "+user.getUserId());
     return visitedLocation;
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public User getUser(String userName) {
+    logger.debug("getUser launched for user: "+userName);
     return internalUserMap.get(userName);
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public List<User> getAllUsers() {
+    logger.debug("getAllUser launched ");
     return internalUserMap.values().stream().collect(Collectors.toList());
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public void addUser(User user) {
+    logger.debug("addUser launched for user id: "+user);
     if (!internalUserMap.containsKey(user.getUserName())) {
       internalUserMap.put(user.getUserName(), user);
     }
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public List<Provider> getTripDeals(User user) {
+    logger.debug("getTripDeaks launched for user id: "+user.getUserId());
     int cumulativeRewardPoints =
             user.getUserRewards().stream().mapToInt(i -> i.getRewardPoints()).sum();
 
@@ -165,11 +173,11 @@ public class TourGuideServiceImpl implements TourGuideService{
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public Mono<VisitedLocation> trackUserLocation(User user) {
-
+    logger.debug("trackUserLocation launched for user id: "+user.getUserId());
     final String getLocationUri = "/getUserLocation?userId=" + user.getUserId();
     return webClientGps.get()
             .uri(getLocationUri)
@@ -184,11 +192,13 @@ public class TourGuideServiceImpl implements TourGuideService{
 
   /**
    * Use to simplify save of a New VisitedLocation of a user.
-   * @param user User
+   *
+   * @param user            User
    * @param visitedLocation VisitedLocation
    */
   private void saveNewVisitedLocation(User user,
                                       VisitedLocation visitedLocation) {
+    logger.debug("saveNewVisitedLocation launched for user id: "+user.getUserId());
     user.addToVisitedLocations(new VisitedLocation(user.getUserId(),
             new Location(visitedLocation.getLocation().getLatitude(),
                     visitedLocation.getLocation().getLongitude()),
@@ -198,17 +208,16 @@ public class TourGuideServiceImpl implements TourGuideService{
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public List<Attraction> getAllAttractionsFromGpsMicroService() {
+    logger.debug("getAllAttractionsFromGpsMicroService launched");
     final String attractionUri = "/getAttractions";
-
     Flux<Attraction> attractionsFlux = webClientGps.get()
             .uri(attractionUri)
             .retrieve()
             .bodyToFlux(Attraction.class);
-
     List<Attraction> listOfAttraction = attractionsFlux.collectList()
             .block();
     setAttractions(listOfAttraction);
@@ -216,7 +225,7 @@ public class TourGuideServiceImpl implements TourGuideService{
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public List<Attraction> getAttractions() {
@@ -224,11 +233,12 @@ public class TourGuideServiceImpl implements TourGuideService{
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public List<Attraction> getNearByAttractions(
           final VisitedLocation visitedLocation) {
+    logger.debug("getNearByAttractions launched");
     List<Attraction> listOfAttraction = getAttractions();
 
     List<Attraction> nearbyFiveAttractions = listOfAttraction.stream()
@@ -255,11 +265,11 @@ public class TourGuideServiceImpl implements TourGuideService{
 
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public List<VisitedLocation> getAllUsersLocations() {
-
+    logger.debug("getAllUserlocations launched");
     List<VisitedLocation> allVisitedLocations = new ArrayList<>();
     for (User user : getAllUsers()) {
       allVisitedLocations.addAll(user.getVisitedLocations());
@@ -269,10 +279,11 @@ public class TourGuideServiceImpl implements TourGuideService{
   }
 
   /**
-   *@inheritDoc
+   * @inheritDoc
    */
   @Override
   public Map<UUID, Location> getAllCurrentLocation() {
+    logger.debug("getAllCurrentLocation launched");
     Map<UUID, Location> locations = new HashMap<>();
     for (User user : getAllUsers()) {
       Location loc = user.getLastVisitedLocation() != null ?
