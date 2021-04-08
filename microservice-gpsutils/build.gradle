@@ -47,6 +47,12 @@ jacoco {
 }
 
 jacocoTestReport {
+    afterEvaluate {
+        classDirectories.setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: ['com/gpsUtil/model', 'com/gpsUtil/config'])
+
+        }))
+    }
     reports {
         xml.enabled true
         csv.enabled false

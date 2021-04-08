@@ -1,0 +1,5 @@
+2021-04-08 12:32:25,284 INFO o.s.b.StartupInfoLogger [Test worker] Started GpsUtilsControllerTest in 1.681 seconds (JVM running for 3.273)
+2021-04-08 12:32:25,412 DEBUG c.g.c.GpsUtilsController [parallel-1] Call of getUserLocation with e9d82d81-f1f3-4964-a7e6-e29ed24e1770
+2021-04-08 12:32:25,546 DEBUG c.g.c.GpsUtilsController [parallel-2] Call of getAttractions
+2021-04-08 12:32:25,624 DEBUG c.g.s.GpsUtilsServiceImpl [Test worker] getUserLocation launched with id: 375a7aee-9ab5-4de9-9231-17ed01201840
+2021-04-08 12:32:25,634 DEBUG c.g.s.GpsUtilsServiceImpl [Test worker] getAttractions launched

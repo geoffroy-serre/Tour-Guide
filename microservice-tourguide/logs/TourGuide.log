@@ -1,911 +1,881 @@
-2021-04-08 03:33:56,155 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:56,156 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9202.826977133782
-2021-04-08 03:33:56,156 DEBUG c.t.s.RewardsServiceImpl [Test worker] getRewardsPoints launched
-2021-04-08 03:33:56,391 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:56,391 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9283.282671837042
-2021-04-08 03:33:56,392 DEBUG c.t.s.RewardsServiceImpl [Test worker] getRewardsPoints launched
-2021-04-08 03:33:57,331 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,331 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9298.49603873111
-2021-04-08 03:33:57,332 DEBUG c.t.s.RewardsServiceImpl [Test worker] getRewardsPoints launched
-2021-04-08 03:33:57,476 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAttractionsSuggestion returned suggestion: AttractionsSuggestion[userLocation=com.tourGuide.model.Location@952bb05, suggestedAttractions={Disneyland=com.tourGuide.model.NearbyAttraction@134341ec, Joshua Tree National Park=com.tourGuide.model.NearbyAttraction@1fe448ad, Kartchner Caverns State Park=com.tourGuide.model.NearbyAttraction@35be0014, Mojave National Preserve=com.tourGuide.model.NearbyAttraction@29280f35, San Diego Zoo=com.tourGuide.model.NearbyAttraction@206d77dd}]
-2021-04-08 03:33:57,484 INFO c.t.s.TourGuideServiceImpl [Test worker] TestMode enabled
-2021-04-08 03:33:57,484 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Initializing users
-2021-04-08 03:33:57,484 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllAttractionsFromGpsMicroService launched
-2021-04-08 03:33:57,501 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Created 1 internal test users.
-2021-04-08 03:33:57,501 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Finished initializing users
-2021-04-08 03:33:57,501 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllUser launched 
-2021-04-08 03:33:57,501 DEBUG c.t.t.Tracker [pool-12-thread-1] Tracker stopping
-2021-04-08 03:33:57,502 DEBUG c.t.s.TourGuideServiceImpl [Test worker] trackUserLocation launched for user id: f820a6fd-d91e-4d7e-9679-bb057f720b0c
-2021-04-08 03:33:57,563 DEBUG c.t.s.TourGuideServiceImpl [reactor-http-nio-6] saveNewVisitedLocation launched for user id: f820a6fd-d91e-4d7e-9679-bb057f720b0c
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] Calculating user rewards
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5502.878310954594
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 4781.928337789184
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5395.462904206967
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5484.582196540275
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,564 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5074.075839328475
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5175.6318685288425
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5577.27580966084
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 4638.458085740493
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 4851.290289896097
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 3622.34127243471
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,565 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 4422.668231699458
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 4585.223906883917
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 4601.613188733306
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5440.59039281049
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5529.247248653143
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5170.504857699058
-2021-04-08 03:33:57,566 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5417.807421016246
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 4925.187685362718
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5486.800968035126
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5571.96558755236
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5415.293603546921
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,567 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 4263.447864031434
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5541.3427007579385
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 4900.458166180594
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 4413.167953068856
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5371.014599270617
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,568 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2867.253348355204
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2278.675035937296
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2703.9312202259985
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2761.4608467618446
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1507.662690920525
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1564.346432719511
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,569 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2539.3276707157174
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 887.7708469236991
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1033.0220697323018
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 3585.2258430218026
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 442.5240511632205
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 736.5616709167256
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,570 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 630.7153507412982
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1305.4892122714261
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1946.1473315262997
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1332.3158998336894
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1616.791982902657
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,571 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1059.6325919564267
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1864.0688682550392
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2861.5267434471452
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1334.3093981452646
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 289.78058674423363
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2339.983066190054
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,572 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1529.866541764593
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 435.244332572637
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1277.697255154588
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 7616.931252910792
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 7886.921736638343
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 7744.088810954619
-2021-04-08 03:33:57,573 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 7731.876056911329
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 8960.648261780869
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 8985.315629207762
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 8069.294382855628
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9311.156203940038
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9347.91214715584
-2021-04-08 03:33:57,574 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 6249.223171914497
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9602.205162017872
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9434.235574832004
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9578.913070308641
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9901.063865919476
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 8820.977854676323
-2021-04-08 03:33:57,575 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9309.673214940673
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9189.515066152322
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9398.414221980893
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 8894.379667184532
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 7667.816158370752
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9737.55462480444
-2021-04-08 03:33:57,576 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9615.737832473968
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 8295.832697375034
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 8787.103976644989
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9600.598690795372
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 9773.716659556576
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,577 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 3409.128695484388
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 3467.8503448046235
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 3332.311762897879
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 3308.7742484925734
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2451.2952225109084
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2374.0247342935186
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,578 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2959.8050707612324
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2496.0084534757584
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2330.1026732481473
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 5442.609922171262
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2511.875407868349
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2467.4573163024506
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2386.0938452475316
-2021-04-08 03:33:57,579 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1587.8311320858832
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2313.5618154381045
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2143.596305684854
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2077.0393153840064
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2249.7700861415988
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,580 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2274.051707046049
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 3335.530759884674
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1700.2667500850484
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2630.7897262768497
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2768.4402319834567
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2679.9283410592548
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,581 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 2519.8167001193574
-2021-04-08 03:33:57,582 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] nearAttraction launched
-2021-04-08 03:33:57,582 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance launched
-2021-04-08 03:33:57,582 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] getDistance finished distance = 1711.8807916743665
-2021-04-08 03:33:57,582 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-6] user reward calculated
-2021-04-08 03:33:57,582 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getUserRewards launched for user id: f820a6fd-d91e-4d7e-9679-bb057f720b0c
-2021-04-08 03:33:57,586 INFO c.t.s.TourGuideServiceImpl [Test worker] TestMode enabled
-2021-04-08 03:33:57,586 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Initializing users
-2021-04-08 03:33:57,586 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllAttractionsFromGpsMicroService launched
-2021-04-08 03:33:57,609 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Created 0 internal test users.
-2021-04-08 03:33:57,609 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Finished initializing users
-2021-04-08 03:33:57,610 DEBUG c.t.s.TourGuideServiceImpl [Test worker] trackUserLocation launched for user id: 96028ef5-80b1-41af-8e44-9a1b878aef72
-2021-04-08 03:33:57,610 DEBUG c.t.s.TourGuideServiceImpl [pool-13-thread-1] getAllUser launched 
-2021-04-08 03:33:57,610 DEBUG c.t.t.Tracker [pool-13-thread-1] Begin Tracker. Tracking 0 users.
-2021-04-08 03:33:57,610 DEBUG c.t.t.Tracker [pool-13-thread-1] Tracker Time Elapsed: 0 seconds.
-2021-04-08 03:33:57,610 DEBUG c.t.t.Tracker [pool-13-thread-1] Tracker sleeping
-2021-04-08 03:33:57,698 DEBUG c.t.s.TourGuideServiceImpl [reactor-http-nio-11] saveNewVisitedLocation launched for user id: 96028ef5-80b1-41af-8e44-9a1b878aef72
-2021-04-08 03:33:57,698 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] Calculating user rewards
-2021-04-08 03:33:57,698 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,698 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,698 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4738.103406200971
-2021-04-08 03:33:57,698 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,698 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,698 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4048.5352498491316
-2021-04-08 03:33:57,698 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4642.469182323471
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4730.1815092800125
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4480.544658160536
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4582.837597850596
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4856.698078133117
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4128.287277468082
-2021-04-08 03:33:57,699 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4334.1034536123325
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 2789.287065575044
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 3992.957014366224
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4103.598112595687
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4148.395923203229
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4995.843333558777
-2021-04-08 03:33:57,700 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4904.335010981647
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4631.1276810382715
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4850.928318127671
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4413.028115595797
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4873.191296208629
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4811.578011403367
-2021-04-08 03:33:57,701 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4941.736860363316
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 3856.8866274652205
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4846.942831760444
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4285.478936579924
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 3984.1856985928384
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] nearAttraction launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance launched
-2021-04-08 03:33:57,702 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] getDistance finished distance = 4905.680058298626
-2021-04-08 03:33:57,703 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-11] user reward calculated
-2021-04-08 03:33:57,706 INFO c.t.s.TourGuideServiceImpl [Test worker] TestMode enabled
-2021-04-08 03:33:57,706 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Initializing users
-2021-04-08 03:33:57,706 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllAttractionsFromGpsMicroService launched
-2021-04-08 03:33:57,733 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Created 1 internal test users.
-2021-04-08 03:33:57,733 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Finished initializing users
-2021-04-08 03:33:57,734 DEBUG c.t.s.TourGuideServiceImpl [Test worker] trackUserLocation launched for user id: 75a5c690-1b2a-41a6-b25a-bf0d08dc49cf
-2021-04-08 03:33:57,734 DEBUG c.t.s.TourGuideServiceImpl [pool-14-thread-1] getAllUser launched 
-2021-04-08 03:33:57,734 DEBUG c.t.t.Tracker [pool-14-thread-1] Begin Tracker. Tracking 1 users.
-2021-04-08 03:33:57,734 DEBUG c.t.s.TourGuideServiceImpl [pool-14-thread-1] trackUserLocation launched for user id: 00ef839f-e3fb-417e-b4c7-9f71033f184b
-2021-04-08 03:33:57,734 DEBUG c.t.t.Tracker [pool-14-thread-1] Tracker Time Elapsed: 0 seconds.
-2021-04-08 03:33:57,734 DEBUG c.t.t.Tracker [pool-14-thread-1] Tracker sleeping
-2021-04-08 03:33:57,833 DEBUG c.t.s.TourGuideServiceImpl [reactor-http-nio-7] saveNewVisitedLocation launched for user id: 75a5c690-1b2a-41a6-b25a-bf0d08dc49cf
-2021-04-08 03:33:57,833 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] Calculating user rewards
-2021-04-08 03:33:57,833 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,833 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,833 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9945.999533965336
-2021-04-08 03:33:57,833 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,833 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 10343.206150849788
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9969.125981644755
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9295.129075501207
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9631.857164086494
-2021-04-08 03:33:57,834 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 12275.778394445158
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9051.928588806775
-2021-04-08 03:33:57,835 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8447.826168194311
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9184.172971481097
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9050.546295422211
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8996.543392140537
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9097.849784429842
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9162.758579005502
-2021-04-08 03:33:57,836 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9859.49291581997
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8587.332391565884
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9063.486518421774
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9522.325492867722
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9598.83971978072
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,837 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9066.41974697889
-2021-04-08 03:33:57,838 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
-2021-04-08 03:33:57,838 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
-2021-04-08 03:33:57,838 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8584.143234735639
-2021-04-08 03:33:57,838 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] user reward calculated
-2021-04-08 03:33:57,838 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions launched
-2021-04-08 03:33:57,838 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,838 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 10343.206150849788
-2021-04-08 03:33:57,838 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,838 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9945.999533965336
-2021-04-08 03:33:57,838 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,839 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9969.125981644755
-2021-04-08 03:33:57,839 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,839 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 10343.206150849788
-2021-04-08 03:33:57,839 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,839 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9969.125981644755
-2021-04-08 03:33:57,839 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,839 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 10343.206150849788
-2021-04-08 03:33:57,839 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,839 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9969.125981644755
-2021-04-08 03:33:57,839 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9945.999533965336
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9969.125981644755
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9945.999533965336
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,840 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9969.125981644755
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9945.999533965336
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,841 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9295.129075501207
-2021-04-08 03:33:57,842 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,842 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9945.999533965336
-2021-04-08 03:33:57,842 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,842 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9295.129075501207
-2021-04-08 03:33:57,842 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,842 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,842 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,842 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9295.129075501207
-2021-04-08 03:33:57,842 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,842 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9631.857164086494
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9945.999533965336
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9631.857164086494
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9631.857164086494
-2021-04-08 03:33:57,843 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,844 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,844 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,844 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,844 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,844 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,844 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,844 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,844 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,844 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9295.129075501207
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,845 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,846 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,846 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,846 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,846 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9295.129075501207
-2021-04-08 03:33:57,846 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,846 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,846 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,846 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,846 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,846 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 12275.778394445158
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9631.857164086494
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 12275.778394445158
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9969.125981644755
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 12275.778394445158
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 10343.206150849788
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,847 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9295.129075501207
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,848 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9631.857164086494
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,849 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9051.928588806775
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9631.857164086494
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9051.928588806775
-2021-04-08 03:33:57,850 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9051.928588806775
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9051.928588806775
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8447.826168194311
-2021-04-08 03:33:57,851 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8447.826168194311
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8447.826168194311
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,852 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8447.826168194311
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9051.928588806775
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.172971481097
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.172971481097
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,853 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.172971481097
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.172971481097
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9050.546295422211
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,854 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9295.129075501207
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9050.546295422211
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9050.546295422211
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9051.928588806775
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9050.546295422211
-2021-04-08 03:33:57,855 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8447.826168194311
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8996.543392140537
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9295.129075501207
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8996.543392140537
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,856 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8996.543392140537
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9051.928588806775
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8996.543392140537
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9050.546295422211
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8996.543392140537
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8447.826168194311
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,857 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9097.849784429842
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9097.849784429842
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9097.849784429842
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.172971481097
-2021-04-08 03:33:57,858 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9097.849784429842
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9162.758579005502
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9162.758579005502
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,859 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9162.758579005502
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.172971481097
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9162.758579005502
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9162.758579005502
-2021-04-08 03:33:57,860 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9097.849784429842
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9859.49291581997
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9859.49291581997
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9859.49291581997
-2021-04-08 03:33:57,861 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9859.49291581997
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9631.857164086494
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8587.332391565884
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,862 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8587.332391565884
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9097.849784429842
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8587.332391565884
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9050.546295422211
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8587.332391565884
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8996.543392140537
-2021-04-08 03:33:57,863 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8587.332391565884
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8447.826168194311
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.486518421774
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.486518421774
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,864 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.486518421774
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8996.543392140537
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.486518421774
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9051.928588806775
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9522.325492867722
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,865 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9522.325492867722
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9900.768851518353
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9522.325492867722
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9522.325492867722
-2021-04-08 03:33:57,866 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9859.49291581997
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9522.325492867722
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9631.857164086494
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9598.83971978072
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,867 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9598.83971978072
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9859.49291581997
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9598.83971978072
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9371.534617463189
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9598.83971978072
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9631.857164086494
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,868 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9598.83971978072
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9522.325492867722
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9066.41974697889
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9277.07219454602
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9066.41974697889
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,869 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,870 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9066.41974697889
-2021-04-08 03:33:57,870 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,870 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9169.901963686372
-2021-04-08 03:33:57,870 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,870 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9066.41974697889
-2021-04-08 03:33:57,870 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,870 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9162.758579005502
-2021-04-08 03:33:57,870 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,870 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9066.41974697889
-2021-04-08 03:33:57,870 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9097.849784429842
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8584.143234735639
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9184.594846270838
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8584.143234735639
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9063.68950732695
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8584.143234735639
-2021-04-08 03:33:57,871 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,872 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9050.546295422211
-2021-04-08 03:33:57,872 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,872 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8584.143234735639
-2021-04-08 03:33:57,872 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,872 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8587.332391565884
-2021-04-08 03:33:57,872 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,872 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8584.143234735639
-2021-04-08 03:33:57,872 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
-2021-04-08 03:33:57,872 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 8447.826168194311
-2021-04-08 03:33:57,872 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions:Roger Dean Stadium
-2021-04-08 03:33:57,872 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions:Cinderella Castle
-2021-04-08 03:33:57,873 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions:Zoo Tampa at Lowry Park
-2021-04-08 03:33:57,873 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions:Tiger Stadium
-2021-04-08 03:33:57,873 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions:Bryant-Denny Stadium
-2021-04-08 03:33:57,876 INFO c.t.s.TourGuideServiceImpl [Test worker] TestMode enabled
-2021-04-08 03:33:57,876 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Initializing users
-2021-04-08 03:33:57,876 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllAttractionsFromGpsMicroService launched
-2021-04-08 03:33:57,903 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Created 10 internal test users.
-2021-04-08 03:33:57,903 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Finished initializing users
-2021-04-08 03:33:57,904 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllCurrentLocation launched
-2021-04-08 03:33:57,904 DEBUG c.t.t.Tracker [pool-15-thread-1] Tracker stopping
-2021-04-08 03:33:57,904 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllUser launched 
+2021-04-08 14:23:08,398 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:08,400 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 3334.559586597972
+2021-04-08 14:23:08,400 DEBUG c.t.s.RewardsServiceImpl [Test worker] getRewardsPoints launched
+2021-04-08 14:23:08,764 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAttractionsSuggestion returned suggestion: AttractionsSuggestion[userLocation=com.tourGuide.model.Location@3e6bd222, suggestedAttractions={El Paso Zoo=com.tourGuide.model.NearbyAttraction@850caa7, Kartchner Caverns State Park=com.tourGuide.model.NearbyAttraction@38a5f75e, Kyle Field=com.tourGuide.model.NearbyAttraction@75485622, Texas Memorial Stadium=com.tourGuide.model.NearbyAttraction@15d2606b, Tiger Stadium=com.tourGuide.model.NearbyAttraction@1bd99584}]
+2021-04-08 14:23:08,772 INFO c.t.s.TourGuideServiceImpl [Test worker] TestMode enabled
+2021-04-08 14:23:08,772 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Initializing users
+2021-04-08 14:23:08,772 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllAttractionsFromGpsMicroService launched
+2021-04-08 14:23:08,791 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Created 1 internal test users.
+2021-04-08 14:23:08,791 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Finished initializing users
+2021-04-08 14:23:08,792 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllUser launched 
+2021-04-08 14:23:08,792 DEBUG c.t.t.Tracker [pool-12-thread-1] Tracker stopping
+2021-04-08 14:23:08,792 DEBUG c.t.s.TourGuideServiceImpl [Test worker] trackUserLocation launched for user id: 57b475ce-3801-4b94-bfdf-373f866ad7b2
+2021-04-08 14:23:08,849 DEBUG c.t.s.TourGuideServiceImpl [reactor-http-nio-7] saveNewVisitedLocation launched for user id: 57b475ce-3801-4b94-bfdf-373f866ad7b2
+2021-04-08 14:23:08,849 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] Calculating user rewards
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5132.435346214137
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4404.991263316751
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5021.914746319556
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5111.26543620111
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,850 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4691.283824655346
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4792.953666214195
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5197.372686776208
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4262.826782557418
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4475.185852800655
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,851 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 3326.658159634125
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4058.45446339604
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4213.268197420472
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4233.996449185935
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5076.509298521506
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5145.281851372709
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4792.358084026615
+2021-04-08 14:23:08,852 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5037.2639859629235
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4549.830440303614
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5103.227728863484
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5200.132075691803
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5046.362073902657
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,853 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 3902.833394503149
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5158.693965571904
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4516.592052965627
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 4049.050856231147
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 5003.299081433322
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,854 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9563.061677610056
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9980.565825761367
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9588.113378943983
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9518.888942977466
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9042.805262473787
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8962.032589218852
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,855 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9254.336722713124
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8997.873331793846
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8875.255340427666
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 11911.016299144727
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8822.218390279799
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8917.157968410615
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,856 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8791.211778486435
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8141.920465240846
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8829.51488285736
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8732.644425074828
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8660.592999657163
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8800.344701186736
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,857 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8812.273621984492
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9476.622460255723
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8275.384652390358
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8840.468575536192
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9150.724840488949
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9272.086197527275
+2021-04-08 14:23:08,858 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8825.8582374495
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8276.294269054782
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6433.941296471487
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7146.222442838813
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6537.317274904376
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6448.563265726946
+2021-04-08 14:23:08,859 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6847.039376527068
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6745.638473800223
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6347.531456726277
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7291.295943085773
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7078.027994852596
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8397.536560955443
+2021-04-08 14:23:08,860 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7520.600904747201
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7348.9381366798325
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7337.821153956429
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6504.418524425385
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6390.410297808944
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6756.453265096468
+2021-04-08 14:23:08,861 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6506.214367272602
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7005.101143528832
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6433.360146465325
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6363.14669419675
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6523.504809533269
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7683.824384609358
+2021-04-08 14:23:08,862 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6379.960165727907
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7019.305609868144
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7530.201323338389
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 6569.276752124191
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9456.053248339802
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9137.557189713367
+2021-04-08 14:23:08,863 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9333.262582042
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9342.173765707894
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8101.935315304472
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8085.83863770235
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8998.848504262125
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7661.279388264244
+2021-04-08 14:23:08,864 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7674.7156214919205
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 10061.901019962455
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7276.943365609133
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7516.243037850781
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7367.989756233152
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7176.861753701061
+2021-04-08 14:23:08,865 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8252.380441846111
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7758.954223070473
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7888.310664161247
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7637.008179853192
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8181.211287037171
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 9400.180248784476
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,866 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7340.316138691767
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7190.118601023273
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8775.45605809739
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 8254.486635156081
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7274.784410467729
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] nearAttraction launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance launched
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] getDistance finished distance = 7303.258707195989
+2021-04-08 14:23:08,867 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-7] user reward calculated
+2021-04-08 14:23:08,868 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getUserRewards launched for user id: 57b475ce-3801-4b94-bfdf-373f866ad7b2
+2021-04-08 14:23:08,872 INFO c.t.s.TourGuideServiceImpl [Test worker] TestMode enabled
+2021-04-08 14:23:08,872 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Initializing users
+2021-04-08 14:23:08,872 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllAttractionsFromGpsMicroService launched
+2021-04-08 14:23:08,900 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Created 0 internal test users.
+2021-04-08 14:23:08,900 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Finished initializing users
+2021-04-08 14:23:08,900 DEBUG c.t.s.TourGuideServiceImpl [Test worker] trackUserLocation launched for user id: 0450dc5c-da85-43be-b639-da1de9a69829
+2021-04-08 14:23:08,900 DEBUG c.t.s.TourGuideServiceImpl [pool-13-thread-1] getAllUser launched 
+2021-04-08 14:23:08,900 DEBUG c.t.t.Tracker [pool-13-thread-1] Begin Tracker. Tracking 0 users.
+2021-04-08 14:23:08,900 DEBUG c.t.t.Tracker [pool-13-thread-1] Tracker Time Elapsed: 0 seconds.
+2021-04-08 14:23:08,900 DEBUG c.t.t.Tracker [pool-13-thread-1] Tracker sleeping
+2021-04-08 14:23:08,989 DEBUG c.t.s.TourGuideServiceImpl [reactor-http-nio-12] saveNewVisitedLocation launched for user id: 0450dc5c-da85-43be-b639-da1de9a69829
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] Calculating user rewards
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1389.9368437822543
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 615.4162467319221
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1247.0467740308247
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1335.3160051367904
+2021-04-08 14:23:08,990 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1158.6511992784554
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1245.8652803193174
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1365.77756509508
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1260.9266611746536
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1343.6063256315365
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1878.438816831469
+2021-04-08 14:23:08,991 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1564.8934872914622
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1376.7785778281875
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1521.2353555919135
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 2059.33372747822
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1455.294149159032
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1461.5024762198361
+2021-04-08 14:23:08,992 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1549.5464034345518
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1412.9031779642726
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1449.2495520369964
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1437.3300688583
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1921.041429036859
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1627.1804911873608
+2021-04-08 14:23:08,993 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1332.673618205029
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 928.5532320995187
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1565.2076970584283
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] nearAttraction launched
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance launched
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] getDistance finished distance = 1923.136560207159
+2021-04-08 14:23:08,994 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-12] user reward calculated
+2021-04-08 14:23:08,998 INFO c.t.s.TourGuideServiceImpl [Test worker] TestMode enabled
+2021-04-08 14:23:08,998 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Initializing users
+2021-04-08 14:23:08,999 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllAttractionsFromGpsMicroService launched
+2021-04-08 14:23:09,024 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Created 1 internal test users.
+2021-04-08 14:23:09,024 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Finished initializing users
+2021-04-08 14:23:09,024 DEBUG c.t.s.TourGuideServiceImpl [Test worker] trackUserLocation launched for user id: c7153c48-661d-460d-ad64-b4c393a1360a
+2021-04-08 14:23:09,024 DEBUG c.t.s.TourGuideServiceImpl [pool-14-thread-1] getAllUser launched 
+2021-04-08 14:23:09,024 DEBUG c.t.t.Tracker [pool-14-thread-1] Begin Tracker. Tracking 1 users.
+2021-04-08 14:23:09,024 DEBUG c.t.s.TourGuideServiceImpl [pool-14-thread-1] trackUserLocation launched for user id: d7e54f58-dbb7-4f11-9110-9eccd085765a
+2021-04-08 14:23:09,024 DEBUG c.t.t.Tracker [pool-14-thread-1] Tracker Time Elapsed: 0 seconds.
+2021-04-08 14:23:09,024 DEBUG c.t.t.Tracker [pool-14-thread-1] Tracker sleeping
+2021-04-08 14:23:09,118 DEBUG c.t.s.TourGuideServiceImpl [reactor-http-nio-3] saveNewVisitedLocation launched for user id: c7153c48-661d-460d-ad64-b4c393a1360a
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] Calculating user rewards
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 7647.321709464872
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 7597.992948593322
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 7564.40611379137
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,118 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 7545.347114644963
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6510.559015798716
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 7194.834729242107
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6192.759855685332
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,119 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 9347.684894904507
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6005.747809688767
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 5538.153462562562
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6508.03112783693
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,120 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6160.033853367174
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6201.559805713867
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6131.647486454608
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6453.8661348183605
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 7574.298433100967
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 5695.934211870793
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 5980.497745504112
+2021-04-08 14:23:09,121 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6994.982979352201
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 6713.584972945955
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 5995.583326263982
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] nearAttraction launched
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance launched
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] getDistance finished distance = 5675.87060573659
+2021-04-08 14:23:09,122 DEBUG c.t.s.RewardsServiceImpl [reactor-http-nio-3] user reward calculated
+2021-04-08 14:23:09,123 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions launched
+2021-04-08 14:23:09,123 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,123 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7597.992948593322
+2021-04-08 14:23:09,123 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,123 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7647.321709464872
+2021-04-08 14:23:09,123 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,123 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7564.40611379137
+2021-04-08 14:23:09,123 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,123 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7597.992948593322
+2021-04-08 14:23:09,123 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7545.347114644963
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7564.40611379137
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6510.559015798716
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7545.347114644963
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6510.559015798716
+2021-04-08 14:23:09,124 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7194.834729242107
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7194.834729242107
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7564.40611379137
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7194.834729242107
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,125 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6510.559015798716
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7194.834729242107
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7545.347114644963
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7545.347114644963
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,126 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6510.559015798716
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6192.759855685332
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7545.347114644963
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,127 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6192.759855685332
+2021-04-08 14:23:09,128 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,128 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6510.559015798716
+2021-04-08 14:23:09,128 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,128 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6192.759855685332
+2021-04-08 14:23:09,128 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,128 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,128 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,128 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6192.759855685332
+2021-04-08 14:23:09,128 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,128 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9347.684894904507
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7194.834729242107
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9347.684894904507
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7597.992948593322
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 9347.684894904507
+2021-04-08 14:23:09,129 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7647.321709464872
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7545.347114644963
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,130 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6192.759855685332
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7194.834729242107
+2021-04-08 14:23:09,131 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6192.759855685332
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,132 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6005.747809688767
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7194.834729242107
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6005.747809688767
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6005.747809688767
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,133 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6005.747809688767
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5538.153462562562
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6510.559015798716
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5538.153462562562
+2021-04-08 14:23:09,134 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6192.759855685332
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5538.153462562562
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6005.747809688767
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5538.153462562562
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,135 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6508.03112783693
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6510.559015798716
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6508.03112783693
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6508.03112783693
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,136 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6508.03112783693
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6160.033853367174
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6508.03112783693
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6160.033853367174
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,137 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6160.033853367174
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6160.033853367174
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6192.759855685332
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6201.559805713867
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,138 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6508.03112783693
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6201.559805713867
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6160.033853367174
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6201.559805713867
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6201.559805713867
+2021-04-08 14:23:09,139 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6192.759855685332
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6131.647486454608
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6131.647486454608
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6160.033853367174
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6131.647486454608
+2021-04-08 14:23:09,140 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6005.747809688767
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6131.647486454608
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6453.8661348183605
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,141 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6453.8661348183605
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6453.8661348183605
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6201.559805713867
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6453.8661348183605
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6259.303421932704
+2021-04-08 14:23:09,142 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7574.298433100967
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6453.8661348183605
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7574.298433100967
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7545.347114644963
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7574.298433100967
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7647.321709464872
+2021-04-08 14:23:09,143 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7574.298433100967
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7597.992948593322
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7574.298433100967
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7564.40611379137
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5695.934211870793
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,144 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5695.934211870793
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6160.033853367174
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5695.934211870793
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6005.747809688767
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5695.934211870793
+2021-04-08 14:23:09,145 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5695.934211870793
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5538.153462562562
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5980.497745504112
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6453.8661348183605
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,146 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5980.497745504112
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5980.497745504112
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5980.497745504112
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5695.934211870793
+2021-04-08 14:23:09,147 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6994.982979352201
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6453.8661348183605
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6994.982979352201
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7564.40611379137
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6994.982979352201
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,148 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6510.559015798716
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6994.982979352201
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7545.347114644963
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6994.982979352201
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7194.834729242107
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6713.584972945955
+2021-04-08 14:23:09,149 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6453.8661348183605
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6713.584972945955
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7545.347114644963
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6713.584972945955
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6510.559015798716
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6713.584972945955
+2021-04-08 14:23:09,150 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 7194.834729242107
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6713.584972945955
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6994.982979352201
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5995.583326263982
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6461.692703799598
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,151 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5995.583326263982
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6146.863333749498
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5995.583326263982
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5995.583326263982
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6131.647486454608
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,152 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5995.583326263982
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6005.747809688767
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5675.87060573659
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6453.8661348183605
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5675.87060573659
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 6131.647486454608
+2021-04-08 14:23:09,153 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5675.87060573659
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5993.726017909696
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5675.87060573659
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5695.934211870793
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5675.87060573659
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance launched
+2021-04-08 14:23:09,154 DEBUG c.t.s.RewardsServiceImpl [Test worker] getDistance finished distance = 5538.153462562562
+2021-04-08 14:23:09,154 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions:Roger Dean Stadium
+2021-04-08 14:23:09,155 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions:Cinderella Castle
+2021-04-08 14:23:09,155 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions:Zoo Tampa at Lowry Park
+2021-04-08 14:23:09,155 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions:Franklin Park Zoo
+2021-04-08 14:23:09,155 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getNearByAttractions:Flatiron Building
+2021-04-08 14:23:09,158 INFO c.t.s.TourGuideServiceImpl [Test worker] TestMode enabled
+2021-04-08 14:23:09,158 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Initializing users
+2021-04-08 14:23:09,158 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllAttractionsFromGpsMicroService launched
+2021-04-08 14:23:09,178 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Created 10 internal test users.
+2021-04-08 14:23:09,178 DEBUG c.t.s.TourGuideServiceImpl [Test worker] Finished initializing users
+2021-04-08 14:23:09,179 DEBUG c.t.t.Tracker [pool-15-thread-1] Tracker stopping
+2021-04-08 14:23:09,179 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllCurrentLocation launched
+2021-04-08 14:23:09,179 DEBUG c.t.s.TourGuideServiceImpl [Test worker] getAllUser launched 

@@ -131,7 +131,6 @@ public class RewardsServiceImpl implements RewardsService {
   @Override
   public Retry retry() {
     return Retry
-            .backoff(60,
-                    Duration.ofSeconds(5));
+            .backoff(60, Duration.ofSeconds(5));
   }
 }

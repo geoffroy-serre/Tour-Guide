@@ -1,7 +1,39 @@
 version: '3'
-services: 
+services:
+  gpsutil:
+    image: gpsutils-microservice
+    container_name: gpsutils
+    ports:
+      - "8081:8081"
+    networks:
+      - default
+
+  rewardscenter:
+    image: rewardscenter-microservice
+    container_name: rewardscenter
+    ports:
+      - "8082:8082"
+    networks:
+      - default
+    
+  trippricer:
+    image: trippricer-microservice
+    container_name: trippricer
+    ports:
+      - "8083:8083"
+    networks:
+      - default
+    
   tourguide:
+    depends_on:
+      - gpsutil
+      - trippricer
+      - rewardscenter
     image: tourguide-microservice
-    ports: 
+    container_name: tourguide
+    ports:
       - "8080:8080"
-    restart: always
+    networks:
+      - default
+    environment:
+      - "SPRING_PROFILES_ACTIVE=docker"

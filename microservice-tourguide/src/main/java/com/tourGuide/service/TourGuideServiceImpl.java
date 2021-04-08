@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -23,8 +24,9 @@ import reactor.util.retry.Retry;
 @Service
 public class TourGuideServiceImpl implements TourGuideService {
 
-  WebClient webClientGps;
-  WebClient webClientTripPricer;
+
+  private WebClient webClientGps;
+  private WebClient webClientTripPricer;
   private List<Attraction> attractions;
   private Logger logger = LoggerFactory.getLogger(TourGuideServiceImpl.class);
   private final RewardsService rewardsService;
@@ -36,7 +38,7 @@ public class TourGuideServiceImpl implements TourGuideService {
                               @Qualifier("getWebClientTripPricer") final WebClient pWebClientTripPricer,
                               RewardsService pRewardService) {
     this.webClientGps = pWebClientGps;
-    rewardsService = pRewardService;
+    this.rewardsService = pRewardService;
     this.webClientTripPricer = pWebClientTripPricer;
 
     Locale.setDefault(Locale.US);
