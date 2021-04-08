@@ -33,9 +33,8 @@ dependencies {
     implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
 
     compile(name:'TripPricer', ext:'jar')
-    testCompile("junit:junit")
-    testCompile (group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2' +
-            '.1.6.RELEASE'){
+
+    testCompile (group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.4.4'){
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
         exclude module: 'spring-boot-starter-logging'
     }
@@ -50,6 +49,11 @@ jacoco {
 }
 
 jacocoTestReport {
+    afterEvaluate {
+        classDirectories.setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it,exclude: [ 'com/tripPricer/model','com/tripPricer/config'])
+                    }))
+    }
     reports {
         xml.enabled true
         csv.enabled false
@@ -68,7 +72,7 @@ jacocoTestCoverageVerification {
                 value = 'COVEREDRATIO'
                 minimum = 0.5
             }
+
         }
     }
 }
-

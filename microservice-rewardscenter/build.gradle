@@ -46,6 +46,12 @@ jacoco {
 }
 
 jacocoTestReport {
+    afterEvaluate {
+        classDirectories.setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: ['com/rewardsCenter/model','com/rewardsCenter/config'])
+
+        }))
+    }
     reports {
         xml.enabled true
         csv.enabled false
@@ -59,6 +65,7 @@ check.dependsOn jacocoTestCoverageVerification
 jacocoTestCoverageVerification {
     violationRules {
         rule {
+
             limit {
                 counter = 'LINE'
                 value = 'COVEREDRATIO'
