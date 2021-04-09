@@ -61,7 +61,7 @@ public class TestPerformance {
   int rewards = 0;
 
   @Test
-  public void highVolumeTrackLocation() throws ExecutionException, InterruptedException {
+  public void highVolumeTrackLocation() {
 // Users should be incremented up to 100,000, and test finishes within 15 minutes
     InternalTestHelper.setInternalUserNumber(testUsersCount);
     TourGuideServiceImpl tourGuideService = new TourGuideServiceImpl(webClientGps, webClientTripDeals,
@@ -98,7 +98,7 @@ public class TestPerformance {
 
   // Users should be incremented up to 100,000, and test finishes within 20 minutes
   @Test
-  public void highVolumeGetRewards() throws ExecutionException, InterruptedException {
+  public void highVolumeGetRewards()  {
     InternalTestHelper.setInternalUserNumber(testUsersCount);
     TourGuideServiceImpl tourGuideService = new TourGuideServiceImpl(webClientGps, webClientTripDeals,
             rewardsService);
@@ -133,7 +133,6 @@ public class TestPerformance {
     for (User user : allUsers) {
       assertThat(user.getUserRewards().size() > 0).isTrue();
     }
-
 
     System.out.println("highVolumeGetRewards: Time Elapsed: " + TimeUnit.MILLISECONDS.toSeconds(stopWatch.getTime()) + " seconds for " + allUsers.size() + " users.");
     Assertions.assertTrue(TimeUnit.MINUTES.toSeconds(20) >= TimeUnit.MILLISECONDS.toSeconds(stopWatch.getTime()));

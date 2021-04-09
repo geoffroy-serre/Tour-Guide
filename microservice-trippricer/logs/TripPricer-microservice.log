@@ -1,2 +1,3 @@
-2021-04-08 12:36:06,062 DEBUG c.t.c.TripPricerController [parallel-1] Call of getPrice with tripPricerApiKey: ApiKey and userId: 38e423e7-319a-430f-9af4-2a801ac70c60 nbrOfAdult: 1 nbrOfChildren: 1and tripDuration: 1 cumulativeRewardsPpoints: 1
-2021-04-08 12:36:06,282 DEBUG c.t.s.TripPricerServiceImpl [Test worker] Entering getPrice with those following data: ApiKey f1042eba-8216-4b60-a50f-a57f0fa114da 1 1 1 1
+2021-04-08 15:33:46,809 INFO o.s.b.StartupInfoLogger [Test worker] Started TripPricerControllerTest in 1.622 seconds (JVM running for 3.266)
+2021-04-08 15:33:46,932 DEBUG c.t.c.TripPricerController [parallel-1] Call of getPrice with tripPricerApiKey: ApiKey and userId: 46a91e04-205e-443b-9e05-db7d45400e54 nbrOfAdult: 1 nbrOfChildren: 1and tripDuration: 1 cumulativeRewardsPpoints: 1
+2021-04-08 15:33:47,153 DEBUG c.t.s.TripPricerServiceImpl [Test worker] Entering getPrice with those following data: ApiKey 15aa46be-6f0e-4b02-adab-ccdb3ca32cbb 1 1 1 1

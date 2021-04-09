@@ -1,6 +1,5 @@
 package com.tourGuide;
 
-import com.tourGuide.helper.InternalTestHelper;
 import com.tourGuide.model.Attraction;
 import com.tourGuide.model.User;
 import com.tourGuide.model.UserReward;
@@ -35,9 +34,9 @@ public class TestRewardsService {
 
   @BeforeEach
   public void setUp() {
-    countCheck=0;
-    testUsersCount= 0;
-    attractions =  webClientGps.get().uri("/getAttractions").retrieve().bodyToFlux(Attraction.class);
+    countCheck = 0;
+    testUsersCount = 0;
+    attractions = webClientGps.get().uri("/getAttractions").retrieve().bodyToFlux(Attraction.class);
     attractionList = attractions.collectList().block();
     //InternalTestHelper.setInternalUserNumber(testUsersCount);
   }
@@ -45,7 +44,7 @@ public class TestRewardsService {
   @Test
   public void userGetRewards() {
     rewardsService.setProximityBuffer(10);
-   Attraction attractionVisited = attractionList.get(0);
+    Attraction attractionVisited = attractionList.get(0);
     User user = new User(UUID.randomUUID(), "john", "000",
             "john@tourGuide.com");
     user.addToVisitedLocations(new VisitedLocation(user.getUserId(),
@@ -60,8 +59,8 @@ public class TestRewardsService {
         e.printStackTrace();
       }
       countCheck = 0;
-        if (userRewards.size() > 0) {
-         countCheck++;
+      if (userRewards.size() > 0) {
+        countCheck++;
       }
     }
 
@@ -101,9 +100,9 @@ public class TestRewardsService {
   }
 
   @Test
-  public void setDefaultProximityBuffer(){
+  public void setDefaultProximityBuffer() {
     int defaultProximityBuffer = rewardsService.getDefaultProximityBuffer();
     rewardsService.setDefaultProximityBuffer();
-    Assertions.assertEquals(defaultProximityBuffer,rewardsService.getDefaultProximityBuffer());
+    Assertions.assertEquals(defaultProximityBuffer, rewardsService.getDefaultProximityBuffer());
   }
 }
